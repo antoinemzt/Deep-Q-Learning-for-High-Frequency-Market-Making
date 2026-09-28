@@ -4,10 +4,6 @@
 
 **A Double DQN agent that learns to quote bid and ask prices on a synthetic Limit Order Book, benchmarked against the Avellaneda–Stoikov model and a random policy.**
 
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![PyTorch](https://img.shields.io/badge/framework-PyTorch-orange)
-![Gymnasium](https://img.shields.io/badge/env-Gymnasium-green)
-
 *Antoine Mazet & Léo Pommier — Reinforcement Learning Project, April 2026*
 
 <img src="docs/fig5_three_way_comparison.png" alt="DQN vs Avellaneda-Stoikov vs Random" width="750">
@@ -57,14 +53,6 @@ Out-of-sample evaluation on a 2 000-step episode (seed 999):
 ├── train_dqn.py         # Training loop
 ├── eval.py              # Unified evaluation framework
 └── docs/                # Figures and report
-```
-
-## Installation
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-pip install -r requirements.txt
 ```
 
 ## Usage
